@@ -72,7 +72,7 @@ window.onload = function () {
       ctx.moveTo(0, waveY);
 
       for (let x = 0; x < canvas.width; x++) {
-        const y = waveY + Math.sin((x + localOffset) / waveLength * Math.PI * 2) * (waveHeight + volumeBoost * 5);
+        const y = waveY + Math.sin((x + localOffset) / waveLength * Math.PI * 2) * (waveHeight + volumeBoost * 8);
         ctx.lineTo(x, y);
       }
 
