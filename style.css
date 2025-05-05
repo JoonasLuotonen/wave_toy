@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+#controls {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+  z-index: 10;
+}
+
+.slider-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+input[type="range"] {
+  width: 200px;
+}
+
+.color-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.color-button {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid #999;
+  cursor: pointer;
+}
+
+canvas {
+  display: block;
+}
